@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* header qismi boshi */
+.site-header{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 24px 0;
+}
+.logo_icon{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo-text:hover{
+    color: #DE2E54;
+}
+.logo-text:active{
+    opacity: 0.6;
+}
+.logo-text{
+    margin-left: 16px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #222222;
+}
+
+.site-nav{
+    display: flex;
+}
+.site-nav__items{
+    display: flex;
+    list-style: none;
+    
+}
+.site-nav__item a{
+    margin-right: 32px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase; 
+    color: #222222;
+    text-decoration: none;
+}
+.site-nav__item a:hover{
+    color: #DE2E54;
+    
+}
+.site-nav__item a:active{
+    opacity: 0.6;
+}
+.btn{
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 150%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #DE2E54;
+    /* border: 2px solid #DE2E54; */
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 2px solid #DE2E54;
+    padding: 12px 24px;
+}
+.btn:hover,
+.btn:active{
+    background-color: #fff;
+    color: #DE2E54;
+}
+/* header qismi oxiri */
+
+/* Hero qismi boshlandi */
+.hero{
+    width: 100%;
+    background: hsl(184, 86%, 41%);
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+.hero-content{
+    width: 550px; 
+}
+.hero-content .btn{
+    margin-top: 32px;
+    display:inline-block
+}
+.hero-title{
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+.hero-text{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #FFFFFF;
+    margin-top:16px;
+}
+.hero-img{
+    width: 423px;
+    height: 504px;
+    margin-top: 30px;
+}
+/* Servisec qismi boshlanishi */
+
+.servisec-heading{
+    text-align: center;
+    margin-top: 120px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #000000;
+    margin-bottom: 56px;
+}
+.servisec-list{
+    margin: 0;
+    padding: 0;
+    margin-top: 56px;
+    width: 864px;
+    margin: auto;
+    list-style: none;
+    
+}
+.servisec-lists{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+.servisec-img{
+    width: 200px;
+    height: 200px;
+}
+.servisec-right{
+    width: 600px;
+}
+.servisec-right h3{
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #222222;
+    margin-bottom: 24px;
+}
+.servisec-right p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #444444;
+}
+.servisec-btn{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
+/* servisec tugadi */
+
+/* Greed qismini boshlanishi */
+.greed{
+    width: 100%;
+    background: #0EB4C1;
+}
+.greed-header{
+    text-align: center;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+    padding-top: 64px;
+    padding-bottom: 40px;
+}
+.greed-links{
+    text-align: center;
+    padding-bottom: 64px;
+    background: #0EB4C1; 
+}
+.greed-link{
+    text-decoration: none;
+    margin-left: 40px;
+    font-family: Open Sans Condensed;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding: 12px 24px;
+    align-items: center;
+}
+.greed-link:hover,
+.greed-link:active{
+    background-color: #DE2E54;
+    border: 0;
+    
+}
+.greed-link:active{
+    opacity: 0.6;
+}
+.site-footer{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 24px 170px;
+    background: #000;
+}
+.site-footer a{
+    color: #fff;
+}
+.site-footer .logo-text{
+    color: #fff;
+}
+.site-footer .logo-text:hover{
+    color: #DE2E54;
+}
