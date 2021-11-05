@@ -41,8 +41,8 @@
 .site-nav__items{
     display: flex;
     list-style: none;
-    
 }
+
 .site-nav__item a{
     margin-right: 32px;
     font-family: Open Sans;
@@ -79,10 +79,14 @@
     border: 2px solid #DE2E54;
     padding: 12px 24px;
 }
-.btn:hover,
-.btn:active{
+.btn:hover{
     background-color: #fff;
     color: #DE2E54;
+}
+.btn:active{
+    background-color:#DE2E54; ;
+    opacity: 0.6;
+    color: #fff;
 }
 /* header qismi oxiri */
 
@@ -224,12 +228,11 @@
 }
 .greed-link:hover,
 .greed-link:active{
-    background-color: #DE2E54;
-    border: 0;
-    
+    background-color: #DE2E54;  
 }
 .greed-link:active{
     opacity: 0.6;
+    border-color: #DE2E54;
 }
 .site-footer{
     display: flex;
@@ -246,4 +249,8 @@
 }
 .site-footer .logo-text:hover{
     color: #DE2E54;
+}
+.site-footer a:active{
+    color: #fff;
+    opacity: 0.4;
 }
